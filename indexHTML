@@ -3,15 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Outpost board game">
+        <meta name="keywords" content="outpost, outpost board game, sci-fi board game, sci-fi, board game">
         <title>Outpost (1991-1994)</title>
         <link rel="stylesheet" href="indexCSS">
     </head>
     <body>
         <header>
-            <p>Outpost is a board game</p>
+            
         </header>
         <main>
-            
+            <img class="footerLogo" src="https://www.boardgamebliss.com/cdn/shop/files/pic8324340.png?v=1723009456&width=1471" alt="Outpost board game" width="100px" height="150px">
         </main>
+        <footer>
+
+        </footer>
     </body>
 </html>
