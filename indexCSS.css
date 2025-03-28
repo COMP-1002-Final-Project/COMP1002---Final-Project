@@ -1,0 +1,22 @@
+.footerLogo {
+    width: 125px;
+    height: 175px;
+    margin: 12px;                
+}
+footer {
+    background-color: #D65559;
+    height: 200px;
+    display: flex;
+}
+.footerButton {
+    height: 40px;
+    width: auto;
+    margin-top: 148px;
+    margin-left: 15px;
+    margin-right: 12px;
+    background-color:#95D5A5;
+    font-weight: bold;
+}
+.publishers {
+    margin-top: 160px;
+}

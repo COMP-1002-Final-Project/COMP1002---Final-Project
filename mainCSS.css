@@ -1,0 +1,25 @@
+/* Universal CSS - References and Code */
+ 
+/* References:
+ 
+- normalize.css file will be included
+- Colour values:
+ 
+Blue: #0f3bb2;      (header background)
+White: #FFFFFF;     (header text)
+Red: #d65559;       (footer background)
+Black: #000000;     (page background)
+Orange: #e05215;    (for use throughout the page)
+Green: #95d5a5;     (for use throughout the page) */
+ 
+/* Code: */
+ 
+/* Font family */
+ 
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+/* header - placeholder */
+ 
+/* footer - placeholder */
