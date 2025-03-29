@@ -1,41 +1,41 @@
-.about.page-container {
+.about-page-container {
     display: flex;
     flex-direction: row;
     background-color: aqua;
     border-color: aquamarine;
 }
-.about.page.flex-item-1 {
+.about-page-flex-item-1 {
     font-size: 2rem;
-    background-color: #d489cf;
+    background-color: #ab9ede;
     padding: 2rem;
 }
 
-.about.page.flex-item-2 {
+.about-page-flex-item-2 {
     font-size: 2rem;
-    background-color: #d489cf;
+    background-color: #89d4a1;
     padding: 2rem;
 }
 
-.about.page.flex-item-3 {
+.about-page-flex-item-3 {
     font-size: 2rem;
-    background-color: #d489cf;
+    background-color: #d4a189;
     padding: 2rem;
 }
 
-.about.page.flex-item-4 {
+.about-page-flex-item-4 {
     font-size: 2rem;
-    background-color: #d489cf;
+    background-color: #89c0d4;
     padding: 2rem;
 }
 
-.about.page.flex-item-5 {
+.about-page-flex-item-5 {
     font-size: 2rem;
-    background-color: #d489cf;
+    background-color: #cb89d4;
     padding: 2rem;
 }
 
-.about.page.flex-item-6 {
+.about-page-flex-item-6 {
     font-size: 2rem;
-    background-color: #d489cf;
+    background-color: #bcd489;
     padding: 2rem;
 }
