@@ -1,0 +1,39 @@
+.about.page-container {
+    display: flex;
+    flex-direction: row;
+}
+.about.page.flex-item-1 {
+    font-style: 2rem;
+    background-color: #d489cf;
+    padding: 2rem;
+}
+
+.about.page.flex-item-2 {
+    font-style: 2rem;
+    background-color: #d489cf;
+    padding: 2rem;
+}
+
+.about.page.flex-item-3 {
+    font-style: 2rem;
+    background-color: #d489cf;
+    padding: 2rem;
+}
+
+.about.page.flex-item-4 {
+    font-style: 2rem;
+    background-color: #d489cf;
+    padding: 2rem;
+}
+
+.about.page.flex-item-5 {
+    font-style: 2rem;
+    background-color: #d489cf;
+    padding: 2rem;
+}
+
+.about.page.flex-item-6 {
+    font-style: 2rem;
+    background-color: #d489cf;
+    padding: 2rem;
+}
