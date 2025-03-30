@@ -1,41 +1,25 @@
 .about-page-container {
     display: flex;
-    flex-direction: row;
-    background-color: aqua;
+    flex-wrap: wrap;
+    /* stops div elements from overflowing page */
+    flex: 1 1 auto;
+    /* allows items to shrink if needed */
+    height: 100%;
+    width: 100%;
+    /* using width % instead of viewport because viewport includes the scroll bar and causes slight sidescrolling */
     border-color: aquamarine;
 }
-.about-page-flex-item-1 {
+
+.about-page-container > * {
+    /* selects first layer of div items (i.e. the about-page-flex-items); does not select about-page-flex-item nested child elements */
     font-size: 2rem;
     background-color: #ab9ede;
-    padding: 2rem;
-}
-
-.about-page-flex-item-2 {
-    font-size: 2rem;
-    background-color: #89d4a1;
-    padding: 2rem;
-}
-
-.about-page-flex-item-3 {
-    font-size: 2rem;
-    background-color: #d4a189;
-    padding: 2rem;
-}
-
-.about-page-flex-item-4 {
-    font-size: 2rem;
-    background-color: #89c0d4;
-    padding: 2rem;
-}
-
-.about-page-flex-item-5 {
-    font-size: 2rem;
-    background-color: #cb89d4;
-    padding: 2rem;
-}
-
-.about-page-flex-item-6 {
-    font-size: 2rem;
-    background-color: #bcd489;
-    padding: 2rem;
+    border-style: solid;
+    /* need a border style so border color will work */
+    border-color: #de9eb1;
+    display: flex;
+    flex: 1;
+    /* each flex item takes up equal space */
+    height: 50vh;
+    width: 50vw;
 }
