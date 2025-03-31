@@ -6,6 +6,7 @@
 
 const headerGlobal = document.querySelector('#header-global');
 // to grab header ID from html
+const footerGlobal = document.getElementById('footerSection')
 
 headerGlobal.innerHTML = `
 <header class="header-global">
@@ -20,4 +21,4 @@ headerGlobal.innerHTML = `
     </nav>
 </header> `;
 
-footerSection.innerHTML = '<img class="footerLogo" src="css/images/outpost-footer.jpg" alt="Outpost board game"><h2>Outpost (1991 - 1994)</h2><button class="footerButton">Back to Top</button><p class="publishers">Published by Stronghold games and TimJim games</p>';
+footerGlobal.innerHTML = '<img class="footerLogo" src="css/images/outpost-footer.jpg" alt="Outpost board game"><h2>Outpost (1991 - 1994)</h2><button class="footerButton">Back to Top</button><p class="publishers">Published by Stronghold games and TimJim games</p>';
