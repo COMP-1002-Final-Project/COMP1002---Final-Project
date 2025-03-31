@@ -1,22 +1,20 @@
-.footerLogo {
-    width: 125px;
-    height: 175px;
-    margin: 12px;                
-}
-footer {
-    background-color: #D65559;
-    height: 200px;
+.title {
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 50px;
+    margin-top: 25px;
 }
-.footerButton {
-    height: 40px;
-    width: auto;
-    margin-top: 148px;
-    margin-left: 15px;
-    margin-right: 12px;
-    background-color:#95D5A5;
+.compete {
+    font-size: 20px;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.publishers {
-    margin-top: 160px;
+.points {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
 }
