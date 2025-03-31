@@ -2,19 +2,16 @@
 
 .about-page-container {
     display: flex;
-    background-color: black;
     height: 100vh;
+    flex-wrap: wrap;
     /* entire page is set as flex; wrap to prevent overflow */
     /* further page-wide flexbox layout will depend on screen size and be handled by media queries */
 }
 
 .about-page-container>* {
     /* selects first layer of child items (i.e. the about-page-flex-items) */
-    background-color: #95d5a5;
-    color: #e05215;
     border-style: solid;
-    border-color: #e05215;
-    /* colour and border for now so I can see all the boxes */
+    border-color: #95d5a5;
 }
 
 /* media queries */
