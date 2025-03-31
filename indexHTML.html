@@ -6,8 +6,14 @@
         <meta name="description" content="Outpost board game">
         <meta name="keywords" content="outpost, outpost board game, sci-fi board game, sci-fi, board game, economic">
         <title>Outpost (1991-1994)</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="mainCSS.css">
         <link rel="stylesheet" href="indexCSS.css">
         <style>
+            body {
+                background-color: black;
+                color: #E05215;
+            }
             .footerLogo {
                 width: 125px;
                 height: 175px;
@@ -17,6 +23,7 @@
                 background-color: #D65559;
                 height: 200px;
                 display: flex;
+                color: black;
             }
             .footerButton {
                 height: 40px;
@@ -30,16 +37,39 @@
             .publishers {
                 margin-top: 160px;
             }
+            .title {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                font-size: 50px;
+                margin-top: 25px;
+            }
+            .compete {
+                font-size: 20px;
+                font-weight: bold;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .points {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                font-size: 18px;
+            }
+            
         </style>
     </head>
     <body>
-        <header>
+        <header id="header-global">
             
         </header>
         <main>
-            
+            <h2 class="title">Outpost, the board game</h2>
+            <p class="compete">Compete with friends to build the best outpost!</p>
+            <p class="points">Be the first to reach 75 victory points to win!</p>
         </main>
-        <footer>
+        <footer id="footerSection">
             <img class="footerLogo" src="https://www.boardgamebliss.com/cdn/shop/files/pic8324340.png?v=1723009456&width=1471" alt="Outpost board game">
             <h2>Outpost (1991 - 1994)</h2>
             <button class="footerButton">Back to Top</button>
