@@ -2,35 +2,19 @@
 
 .about-page-container {
     display: flex;
-    flex-wrap: wrap;
+    background-color: black;
+    height: 100vh;
     /* entire page is set as flex; wrap to prevent overflow */
     /* further page-wide flexbox layout will depend on screen size and be handled by media queries */
 }
 
 .about-page-container>* {
     /* selects first layer of child items (i.e. the about-page-flex-items) */
-    background-color: #ab9ede;
+    background-color: #95d5a5;
+    color: #e05215;
     border-style: solid;
-    border-color: #de9eb1;
+    border-color: #e05215;
     /* colour and border for now so I can see all the boxes */
-}
-
-/* header */
-
-.header-navbar {
-
-}
-
-.header-logo {
-
-}
-
-.header-ul-nav-links {
-
-}
-                
-.header-li-nav-links {
-    
 }
 
 /* media queries */
@@ -53,6 +37,7 @@
         height: 40vh;
         /* each about-page-flex-item-1 takes up 90vw and 40vw */
     }
+
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -72,7 +57,7 @@
 @media (min-width: 769px) {
     .about-page-container {
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
         /* div items are horizontal and spaced out evenly */
     }
 

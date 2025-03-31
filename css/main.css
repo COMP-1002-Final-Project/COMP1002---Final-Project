@@ -21,5 +21,44 @@ body {
 }
  
 /* header - placeholder */
- 
+/* html for header added to main.js for importing with */
+
+#header-global {
+    background-color: #0f3bb2;
+    color: #ffffff;
+    padding: 2rem;
+}
+
+.header-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* controls header-wide spacing */
+}
+
+.header-logo {
+
+}
+
+.header-ul-nav-links {
+    list-style: none;
+    /* removes default list styling */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* makes the list of links horizontal instead of vertical */
+}
+                
+.header-li-nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-li-nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
 /* footer - placeholder */
