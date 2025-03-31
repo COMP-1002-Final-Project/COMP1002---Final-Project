@@ -1,20 +1,30 @@
-.title {
+main {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    margin: 20px;
+}
+.title {
     font-size: 50px;
     margin-top: 25px;
 }
 .compete {
     font-size: 20px;
     font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .points {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     font-size: 18px;
+    font-weight: bold;
+}
+.fullBoard {
+    width: 600px;
+    border: 10px solid #95D5A5;
+}
+.box {
+    width: 600px;
+    border: 10px solid #95D5A5;
+}
+.personalBoard {
+    width: 600px;
+    border: 10px solid #95D5A5;
 }
