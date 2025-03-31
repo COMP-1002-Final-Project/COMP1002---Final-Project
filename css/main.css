@@ -23,17 +23,17 @@ body {
 }
  
 /* header - placeholder */
-
-.footerLogo {
-    width: 125px;
-    height: 175px;
-    margin: 12px;                
-}
 footer {
     background-color: #D65559;
     height: 200px;
     display: flex;
+    margin: auto;
     color: black;
+}
+.footerLogo {
+    width: 125px;
+    height: 175px;
+    margin: 12px;                
 }
 .footerButton {
     height: 40px;
@@ -43,7 +43,9 @@ footer {
     margin-right: 12px;
     background-color:#95D5A5;
     font-weight: bold;
+    align-items: center;
 }
 .publishers {
     margin-top: 160px;
+    align-items: flex-end;
 }
