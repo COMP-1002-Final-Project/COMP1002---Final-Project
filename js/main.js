@@ -20,4 +20,4 @@ headerGlobal.innerHTML = `
     </nav>
 </header> `;
 
-// footer //
+footerSection.innerHTML = '<img class="footerLogo" src="css/images/outpost-footer.jpg" alt="Outpost board game"><h2>Outpost (1991 - 1994)</h2><button class="footerButton">Back to Top</button><p class="publishers">Published by Stronghold games and TimJim games</p>';
