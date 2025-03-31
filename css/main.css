@@ -18,8 +18,32 @@ Green: #95d5a5;     (for use throughout the page) */
  
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: #E05215;
 }
  
 /* header - placeholder */
 
-/* footer - placeholder */
+.footerLogo {
+    width: 125px;
+    height: 175px;
+    margin: 12px;                
+}
+footer {
+    background-color: #D65559;
+    height: 200px;
+    display: flex;
+    color: black;
+}
+.footerButton {
+    height: 40px;
+    width: auto;
+    margin-top: 148px;
+    margin-left: 15px;
+    margin-right: 12px;
+    background-color:#95D5A5;
+    font-weight: bold;
+}
+.publishers {
+    margin-top: 160px;
+}
