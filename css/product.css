@@ -14,5 +14,13 @@
 .teaser h2 {
     font-weight: bold;
     font-size: 50px;
-    
+    color: #95d5a5;
+}
+.teaser h6 {
+    font-size: 25px;
+    margin: 30px;
+    font-weight: lighter;
+}
+.teaser h3 {
+    font-size: 35px;
 }
