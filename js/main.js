@@ -23,10 +23,10 @@ headerGlobal.innerHTML = `
 
         <div class="header-box-3">
         <ul class="header-ul-nav-links">
-            <li class="header-li-nav-links"><a href="#">Home</a></li>
-            <li class="header-li-nav-links"><a href="#">About</a></li>
-            <li class="header-li-nav-links"><a href="#">Product</a></li>
-            <li class="header-li-nav-links"><a href="#">Contact</a></li>
+               <li class="header-li-nav-links"><a href="/index.html">Home</a></li>
+                <li class="header-li-nav-links"><a href="/about.html">About</a></li>
+                <li class="header-li-nav-links"><a href="/product.html">Product</a></li>
+                <li class="header-li-nav-links"><a href="/contact.html">Contact</a></li>
         </ul>
         </div>
     
@@ -54,5 +54,5 @@ let footButton = document.getElementsByClassName("footerButton");
 
 
 function topFunction() {
-    window.scrollTo({top: 0, behavior: "smooth"});
+    window.scrollTo({ top: 0, behavior: "smooth" });
 }
