@@ -5,11 +5,9 @@ Group Members and expected tasks:
 Megan Summers - 200490048
 footer (cite-wide)
 home page
+product page
 
 Elizabeth Janssen - 200627709
 header (cite-wide)
 about page
-
-Kushal Pradhan - 200606978
-product page
 contact page

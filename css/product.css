@@ -1,10 +1,12 @@
-main {
+.productNav {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.teaserPro {
+.teaser {
+    text-align: center;
+}
+.teaser p {
     font-weight: bold;
     font-size: 25px;
     margin: 30px;

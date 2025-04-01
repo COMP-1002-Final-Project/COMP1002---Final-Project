@@ -50,6 +50,7 @@ footer {
     align-items: center;
 }
 .footerButton {
+    display: none;
     height: 40px;
     width: 120px;
     background-color:#95D5A5;
