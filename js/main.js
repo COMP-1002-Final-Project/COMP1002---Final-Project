@@ -34,4 +34,18 @@ headerGlobal.innerHTML = `
 
 </header> `;
 
-footerGlobal.innerHTML = '<img class="footerLogo" src="css/images/outpost-footer.jpg" alt="Outpost board game"><h2>Outpost (1991 - 1994)</h2><button class="footerButton">Back to Top</button><p class="publishers">Published by Stronghold games and TimJim games</p>';
+footerGlobal.innerHTML = `
+<nav class="footerNav">
+    <div class="footerImage">
+        <img class="footerLogo" src="css/images/outpost-footer.jpg" alt="Outpost board game">
+    </div>
+    <div class="footerTitle">
+        <h2>Outpost (1991 - 1994)</h2>
+    </div>
+    <div class="footButt">
+        <button class="footerButton">Back to Top</button>
+    </div>
+    <div class="footerPublish">
+        <p>Published by Stronghold games and TimJim games</p>
+    </div>
+</nav>`;
