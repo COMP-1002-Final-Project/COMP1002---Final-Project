@@ -22,12 +22,14 @@
     border-color: #95d5a5;
     margin: 1rem;
     width: 35%;
+    border-width: .2rem;
 }
 
 .about-page-flex-item-2 {
     display: flex;
     margin: .5rem;
     width: 70%;
+    font-size: larger;
     justify-content: space-evenly;
 }
 
@@ -35,6 +37,19 @@
     width: 45%;
     border-style: solid;
     border-color: #95d5a5;
+    border-width: .2rem;
+}
+
+.flex-item-2-box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item-2-box-1-paragraph {
+    font-size: large;
+    margin: 1rem;
 }
 
 /* media queries */
