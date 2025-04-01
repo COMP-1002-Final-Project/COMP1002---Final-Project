@@ -43,24 +43,15 @@ footerGlobal.innerHTML = `
         <h2>Outpost (1991 - 1994)</h2>
     </div>
     <div class="footButt">
-        <button class="footerButton" onclick="topFunction()">Back to Top</button>
+        <button onclick="topFunction()" class="footerButton">Back to Top</button>
     </div>
     <div class="footerPublish">
         <p>Published by Stronghold games and TimJim games</p>
     </div>
 </nav>`;
 
-let footButton = document.getElementById("footerButton");
-window.onscroll = function() {scrollFunction()};
+let footButton = document.getElementsByClassName("footerButton");
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        footButton.style.display = "block";
-    }
-    else {
-        footButton.style.display = "none";
-    }
-}
 
 function topFunction() {
     document.body.scrollTop = 0;
