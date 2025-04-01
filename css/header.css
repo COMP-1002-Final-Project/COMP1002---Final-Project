@@ -1,36 +1,50 @@
-/* temp file for header css; will be added into main.css at the end */
+/* tremp file for header css; will be added into main.css at the end */
 /* html for header added to main.js for importing with */
 
 #header-global {
     background-color: #0f3bb2;
     color: #ffffff;
-    padding: 2rem;
+    min-height: 1rem;
+    border-style: solid;
+    border-color: yellow;
 }
 
-.header-navbar {
+.header-main-text {
+    font-size: 2rem;
+    border-style: solid;
+    border-color: aqua;
+}
+
+.header-navbar {     /* controls header-wide spacing */
     display: flex;
-    flex-direction: row;
+    align-items: center; 
+    /*center vertically */
     justify-content: space-between;
-    /* controls header-wide spacing */
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: pink;
 }
 
-.header-logo {
-
+.header-logo-image {
+    max-width: 6rem; 
+    border-style: solid;
+    border-color: green;
+    height: auto;
+    object-fit: contain;
+    /* allows content to grow or shrink based on content */
 }
 
 .header-ul-nav-links {
-    list-style: none;
-    /* removes default list styling */
     display: flex;
+    border-style: solid;
+    border-color: tomato;
     flex-direction: row;
-    justify-content: space-evenly;
-    /* makes the list of links horizontal instead of vertical */
+    list-style: none;
+    gap: 1rem;
 }
                 
 .header-li-nav-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    padding: .5rem;
 }
 
 .header-li-nav-links a {

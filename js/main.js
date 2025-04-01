@@ -9,9 +9,10 @@ const headerGlobal = document.querySelector('#header-global');
 const footerGlobal = document.getElementById('footerSection')
 
 headerGlobal.innerHTML = `
-<header class="header-global">
+<header id="header-global">
     <nav class="header-navbar">
-        <div class="header-logo">Logo Placeholder</div>
+         <img src="/css/images/outpost-box.webp" class="header-logo-image">
+         <p class="header-main-text">Outpost</p>
         <ul class="header-ul-nav-links">
             <li class="header-li-nav-links"><a href="#">Home</a></li>
             <li class="header-li-nav-links"><a href="#">About</a></li>
