@@ -54,6 +54,7 @@ footer {
     width: 120px;
     background-color:#95D5A5;
     font-weight: bold;
+    cursor: pointer;
 }
 .footerPublish {
     min-width: 20%;
