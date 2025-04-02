@@ -7,7 +7,8 @@
     /* spacing for page title */
 }
 
-.about-h1, .about-h2 {
+.about-h1,
+.about-h2 {
     display: flex;
     justify-content: center;
     margin: 1rem;
@@ -30,12 +31,12 @@
 
 /* first row of flex items */
 
- .about-item-1 {
+.about-item-1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     /* spacing and center first layer of flex boxes */
- }
+}
 
 .about-image-1,
 .about-image-2 {
@@ -97,8 +98,28 @@
     width: 20%;
 }
 
-/* media queries 
+/* basic responsiveness for now (i.e. putting whole page in centered column form for smaller screens) */
 
-placeholder
+@media (max-width: 768px) {
+    /* devices like tablets   */
 
-*/
+    .about-page-container * {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+        /* page-wide container */
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* mobile and small screens */
+    .about-page-container * {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+        /* page-wide container */
+    }
+}

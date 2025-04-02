@@ -1,8 +1,8 @@
 
-// header //
+// header and footer //
 
-// js + html code so we can use javascript to import header to each page
-// header styling done in main.css
+// js + html code so we can use javascript to import header and footer to each page
+// header and footer styling done in main.css
 
 const headerGlobal = document.querySelector('#header-global');
 // to grab header ID from html

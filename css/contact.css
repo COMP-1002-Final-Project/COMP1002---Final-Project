@@ -117,8 +117,7 @@
 
 .button-box {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 8rem;
+    justify-content: center;
     margin-bottom: 1rem;
     /* box for submit button so more styling options */
 }
@@ -126,9 +125,33 @@
 .contact-button {
     border-style: solid;
     border-color: #95d5a5;
-    border-width: .1rem;
+    border-width: .2rem;
     padding: .3rem;
     /* some padding for button, green border to match all the other green borders on the various pages */
 }
 
-/* media queries - placeholder */
+/* media queries */
+
+/* basic responsiveness for now (i.e. putting whole page in centered column form for smaller screens) */
+
+@media (max-width: 768px) {   /* devices like tablets   */
+
+    .contact-page-container * {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+        /* page-wide container */
+    }
+}
+
+@media (max-width: 480px) {     /* mobile and small screens */
+    .contact-page-container * {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+        /* page-wide container */
+    }
+
+}
