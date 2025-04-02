@@ -18,9 +18,7 @@
     <header id="header-global"></header>
 
     <main>
-
         <div class="contact-page-container">
-
             <div class="contact-h1-h2">
                 <h1 class="about-h1">Contact Us</h1>
                 <h2 class="about-h2">Please get in touch! We'd love to hear from you.</h2>
@@ -32,9 +30,43 @@
                 </div>
 
                 <div class="contact-page-flex-item-2">
-                    <p class="contact-form">// for contact form //</p>
-                </div>
+                    <form class="contact-form" action="#" method="post">
+                        <h2 class="contact-form-title">Contact Form</h2>
+                        <div class="contact-form-details">
+                            <ul class="contact-form-ul">
+                                <li class="contact-form-li"><label for="contact-first-name">First Name: </label>
+                                    <input type="text" id="contact-first-name" name="contact-first-name"
+                                        placeholder="First Name" autocomplete="on" maxlength="100" autofocus>
+                                </li>
 
+                                <li class="contact-form-li"><label for="contact-last-name">Last Name: </label>
+                                    <input type="text" id="contact-last-name" name="contact-last-name"
+                                        placeholder="Last Name" autocomplete="on" maxlength="100" autofocus>
+                                </li>
+
+                                <li class="contact-form-li"><label for="contact-phone-number">Phone: </label>
+                                    <input type="text" id="contact-phone-number" name="contact-phone-number"
+                                        placeholder="Phone Number" autocomplete="on" maxlength="30">
+                                </li>
+
+                                <li class="contact-form-li"><label for="contact-email">Email: </label>
+                                    <input type="text" id="contact-email" name="contact-email"
+                                        placeholder="Email Address" autocomplete="on" maxlength="254">
+                                </li>
+
+                                <li class="contact-form-li"><label for="contact-mailing-address">Address:</label>
+                                    <textarea name="contact-mailing-address" id="contact-mailing-address"
+                                        placeholder="Please enter your address here." maxlength="300"></textarea>
+                                </li>
+
+                                <li class="contact-form-li"><label for="contact-form-comments">Comments:</label>
+                                    <textarea name="contact-form-comments" id="contact-mailing-address"
+                                        placeholder="Please enter your comments here! We've love to hear from you." maxlength="300"></textarea>
+                                </li>
+
+                            </ul>
+                        </div>
+                </div>
             </div>
     </main>
 

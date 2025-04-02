@@ -5,8 +5,6 @@
 
 .contact-h1-h2 {
     margin: .5rem;
-    border-style: solid;
-    border-color: blueviolet;
 }
 
 .contact-page-flex-items {
@@ -15,8 +13,6 @@
     align-items: center;
     margin-left: 8rem;
     margin-right: 8rem;
-    border-style: solid;
-    border-color: yellow;
     justify-content: space-around;
 }
 
@@ -38,8 +34,8 @@
     width: 60%;
     justify-content: center;
     border-style: solid;
-    border-color: green;
-    margin-right: 2rem;
+    border-color: #95d5a5;
+    border-width: .2rem;
 }
 
 .contact-main-image {
@@ -50,6 +46,15 @@
     max-height: 95%;
 }
 
-.contact-form {
+.contact-form-h3-title {
+
+}
+
+.contact-form-ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-form-li {
 
 }
