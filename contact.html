@@ -14,30 +14,49 @@
 <body>
 
     <header id="header-global"></header>
+    <!-- import header using javascript -->
 
     <main>
         <div class="contact-page-container">
+            <!-- page-wide container -->
             <div class="contact-h1-h2">
+                <!-- container for title elements -->
                 <h1 class="about-h1">Contact Us</h1>
                 <h2 class="about-h2">Please get in touch! We'd love to hear from you.</h2>
             </div>
 
             <div class="contact-page-flex-items">
+
                 <div class="contact-page-flex-item-1">
+
                     <img src="css/images/full-board.JPG" class="contact-main-image"
                         alt="A photo of the Outpost board game.">
                 </div>
 
                 <div class="contact-page-flex-item-2">
+                    <!-- two base flex boxes -->
 
                     <form class="contact-form" action="#" method="post">
+                        <!-- hash because info doesn't go anywhere, post because it's safer method for acquiring personal info -->
 
                         <div class="contact-form-details">
+                            <!-- div used for CSS structuring -->
 
                             <div class="contact-form-details-1">
+                                <!-- splitting contact form into two boxes -->
+
+                                <!-- first box has a list with first name, last name, phone number, email
+                                label element for better accessbility
+                                autocomplete for first name
+                                maxlength values dependent on input field
+                                placeholder values to promot for input
+                                name is name of the field and is used when form is submitted
+                                label element provides a text label for the input field; improves accessbility
+                                for="" attribute links the label to the input field with the same id -->
 
                                 <ul class="contact-form-ul-1">
-                                    <li class="contact-form-li-1"><label for="contact-first-name">First Name: </label>
+                                    <li class="contact-form-li-1"><label for="contact-first-name">First Name:
+                                        </label>
                                         <input type="text" name="contact-first-name" id="contact-first-name"
                                             placeholder="First Name" autocomplete="on" maxlength="100" autofocus>
                                     </li>
@@ -60,6 +79,7 @@
                             </div>
 
                             <div class="contact-form-details-2">
+                                <!-- second box has fields for mailing address and comments -->
 
                                 <ul class="contact-form-ul-2">
 
@@ -74,6 +94,10 @@
                                             maxlength="300"></textarea>
                                     </li>
                                 </ul>
+
+                                <div class="button-box">
+                                    <button type="submit" class="contact-button">Submit</button>
+                                </div>
                             </div>
                         </div>
                     </form>
@@ -83,6 +107,7 @@
     </main>
 
     <footer id="footerSection"></footer>
+    <!-- javascript used to import footer -->
 
 </body>
 

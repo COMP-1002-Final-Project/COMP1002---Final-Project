@@ -1,14 +1,21 @@
+/* full page container */
+
 .contact-page-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* page-wide container */
 }
+
+/* container for title elements */
 
 .contact-h1-h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/* page has two boxes that sit horizontally  */
 
 .contact-page-flex-items {
     display: flex;
@@ -17,19 +24,25 @@
     margin-left: 10rem;
     margin-right: 10rem;
     justify-content: space-evenly;
+    /* shared values for flex box items */
+    /* margin so there's space on the right and left side and leaves some blank space on edges of page */
 }
 
 .contact-page-flex-item-1,
 .contact-page-flex-item-2 {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
+    /* shared margin values for both flexboxes */
 }
+
+/* flex box one */
 
 .contact-page-flex-item-1 {
     height: 80%;
     width: 40%;
     margin-left: 1rem;
     margin-right: .5rem;
+    /* size and margin values for box 1 (i.e. the photo) */
 }
 
 .contact-main-image {
@@ -38,7 +51,10 @@
     border-width: .2rem;
     max-width: 95%;
     max-height: 95%;
+    /* futher styling for the photo; border, and also make sure it doesn't get bigger than parent container */
 }
+
+/* flex box two */
 
 .contact-page-flex-item-2 {
     display: flex;
@@ -46,21 +62,30 @@
     border-style: solid;
     border-color: #95d5a5;
     border-width: .2rem;
+    /* put content at start of container */
 }
+
+/* contact form */
 
 .contact-form-details {
     display: flex;
     align-items: flex-start;
     width: 100%;
+    /* shared values across the form
+    takes up 100% of its parent element */
 }
 
 .contact-form-details-1 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
+    /* keeps list as column, centers, even space in between */
 }
 
 .contact-form-details-2 {
     width: 100%;
+    /* makes message/comment field section take up full container */
 }
 
 .contact-form-ul-1,
@@ -69,6 +94,7 @@
     padding: 0;
     display: flex;
     flex-direction: column;
+    /* no padding or list style, keep as vertical column */
 }
 
 .contact-form-li-1,
@@ -76,8 +102,33 @@
     display: flex;
     padding: 1rem;
     gap: .5rem;
+    /* share values for both list items */
+}
+
+.contact-form-li-1 {
+    height: 2rem;
+    /* slightly bigger input fields */
 }
 
 .contact-form-li-2 {
     height: 5rem;
+    /* bigger height for list 2 so comments and address fields are bigger to look at */
 }
+
+.button-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8rem;
+    margin-bottom: 1rem;
+    /* box for submit button so more styling options */
+}
+
+.contact-button {
+    border-style: solid;
+    border-color: #95d5a5;
+    border-width: .1rem;
+    padding: .3rem;
+    /* some padding for button, green border to match all the other green borders on the various pages */
+}
+
+/* media queries - placeholder */
