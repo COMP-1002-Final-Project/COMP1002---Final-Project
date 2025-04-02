@@ -2,7 +2,7 @@
  
 /* References:
  
-- normalize.css file will be included
+- normalize.css file included in css folder
 - Colour values:
  
 Blue: #0f3bb2;      (header background)
@@ -14,7 +14,7 @@ Green: #95d5a5;     (for use throughout the page) */
  
 /* Code: */
  
-/* Font family */
+/* Background colour, font colour, font family */
  
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,7 +22,86 @@ body {
     color: #E05215;
 }
  
-/* header - placeholder */
+/* header */
+
+#header-global {
+    background-color: #0f3bb2;
+    color: #ffffff;
+    /* blue background and white font */
+    min-height: 5rem;
+    /* header will always be at least 5rem */
+}
+
+.header-navbar {
+    /* controls spacing across entire header */
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    /* space all three header boxes out evenly horizontally */
+}
+
+.header-box-1, .header-box-2, .header-box-3  {
+    min-width: 33%;
+    /* so each box in the header stays roughly the same size (i.e. a third of the header) */
+}
+
+.header-main-text {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    /* title 'outpost' in header; move to center of header */
+}
+
+.header-logo-image {
+    display: flex;
+    max-width: 6rem; 
+    margin: .5rem;}
+    /* max size for the logo image */
+
+.header-ul-nav-links {
+    list-style: none;
+    /* remove list styling */
+    display: flex;
+    justify-content: flex-end;
+    /* move to end of flex box */
+    margin: 0;
+    padding: 0;
+    /* remove any default list padding */
+}
+                
+.header-li-nav-links a {
+    text-decoration: none;
+    /* no affect/or change depending on mouse hovering, link clicked, link unclicked, etc */
+    color: #ffffff;
+    padding: 0.5rem 1rem; 
+    /* shorthand: 0.5rem for top/bottom, and 1rem for left/right padding 
+    makes a little more space around the links clickable */
+}
+
+/* media queries for header */
+
+@media (max-width: 768px) { 
+    /* code for when screen width goes under 768px (i.e. smaller devices) */
+    .header-navbar * {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .25rem;
+        padding: 0;
+        margin: 0;
+        /* change everything in the header to column, and center everything, remove padding and margin and just leave a little margin */
+    }
+
+    .header-li-nav-links a {
+        gap: 0;
+        margin: 0;
+        padding: 0;
+        /* remove any gap, margin or padding from links so they fit in a smaller space */
+    }
+}
+
+/* footer */
+
 footer {
     background-color: #D65559;
     height: auto;
