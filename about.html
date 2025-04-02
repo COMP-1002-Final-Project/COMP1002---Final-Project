@@ -9,27 +9,33 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/about.css">
     <script src="js/main.js" type="text/javascript" defer></script>
+    <!-- import javascript with 'defer' so HTML below runs first -->
 </head>
 
 <body>
 
     <header id="header-global"></header>
+    <!-- header called using javascript -->
 
     <main>
 
         <div class="about-page-container">
+            <!-- page wide container -->
 
             <div class="about-h1-h2">
                 <h1 class="about-h1">About Outpost</h1>
                 <h2 class="about-h2">Manage your resources, construct your factories, and build your outpost.</h2>
             </div>
+            <!-- h1 and h2 for page titles -->
 
             <div class="about-page-flex-items">
+                <!-- parent container for two layers of flex items -->
 
                 <div class="about-item-1">
+                    <!-- layer one -->
+                     <!-- contents: a photo, a list, and another photo -->
 
-
-                    <img src="css/images/outpostsetup.png" class="about-image-2"
+                    <img src="css/images/outpostsetup.png" class="about-image-1"
                         alt="A photo of the Outpost board game set-up.">
 
                     <ul class="about-mechanics-ul">
@@ -40,34 +46,35 @@
                         <li class="about-mechanics-li">Purchase factory improvements</li>
                     </ul>
 
-                    <img class="about-image-1" src="css/images/redoutpost.png"
+                    <img class="about-image-2" src="css/images/redoutpost.png"
                         alt="A photo of the Outpost board game box.">
 
                 </div>
 
                 <div class="about-item-2">
+                    <!-- layer two -->
+                     <!-- contents: three paragraphs-->
 
                     <p class="about-paragraph-1">Outpost is a board game wherein you compete with other
                         players to build the best outpost that you can. Published between 1991 to 1994 by TimJim
                         Games, the game is intended for 3 to 8 players, has an estimated playtime of 1.5 - 3
                         hours, and is recommended for ages 12+.</p>
 
-                        <p class="about-paragraph-2">The game has three phrases, with different improvements available
-                            during different phases. Improvements are purchased through auctions, and each improvement
-                            offers
-                            unique advantages, such as improved technologies, better resource storage, and increased
-                            population limits.</p>
+                    <p class="about-paragraph-2">The game has three phrases, with different improvements available
+                        during different phases. Improvements are purchased through auctions, and each improvement
+                        offers unique advantages, such as improved technologies, better resource storage, and increased
+                        population limits.</p>
 
                     <p class="about-paragraph-3">
                         Each improvement is worth points, and each staffed factory is also worth points. The player who
                         reaches 75 points first wins.</p>
                 </div>
-
             </div>
-
+        </div>    
     </main>
 
     <footer id="footerSection"></footer>
+    <!-- footer called using javascript -->
 
 </body>
 

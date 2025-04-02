@@ -1,23 +1,31 @@
+/* values for page title (h1 and h2) */
+
 .about-h1-h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    /* spacing for page title */
 }
 
 .about-h1, .about-h2 {
     display: flex;
     justify-content: center;
     margin: 1rem;
+    /* additional spacing for title elmements; center both parts */
 }
+
+/* page-wide flex items */
 
 .about-page-flex-items {
     display: flex;
     flex-direction: column;
+    /* column so we have two rows of flex boxes */
     margin-left: 8rem;
     margin-right: 8rem;
     margin-top: .5rem;
     margin-bottom: .5rem;
     font-size: large;
+    /* font size and margin values for the page's flex boxes */
 }
 
 /* first row of flex items */
@@ -26,19 +34,24 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* spacing and center first layer of flex boxes */
  }
 
 .about-image-1,
 .about-image-2 {
     max-width: 30%;
+    /* each image can only take up to 30% of their parent containers; also allows it to shrink if needed */
     height: auto;
+    /* automatically adjust height to maintain original aspect ratio and prevent image distortion/stretching */
     border-style: solid;
     border-color: #95d5a5;
     border-width: .3rem;
+    /* shared values for both images  */
 }
 
-.about-image-2 {
+.about-image-1 {
     max-width: 35%;
+    /* a bit more max-space for first image as it's wider than second image */
 }
 
 .about-mechanics-ul {
@@ -47,12 +60,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* remove default padding from list; make font a bit bigger; maintain column direction; center items */
 }
 
 .about-mechanics-li {
     list-style: none;
     padding: 1rem;
     font-style: italic;
+    /* styling for each list items; no bullet points, a bit of padding, make italic */
 }
 
 /* second row of flexbox items */
@@ -60,13 +75,16 @@
 .about-item-2 {
     display: flex;
     align-items: center;
+    /* horizontal and centered */
 }
 
 .about-item-2 * {
     margin: .5rem;
     margin-bottom: 1.25rem;
+    /* shared margin values for all flex items in second layer of flex items (i.e. three paragraphs) */
 }
 
+/* slightly different paragraph widths based on how much content each paragraph has: */
 .about-paragraph-1 {
     width: 40%;
 }
@@ -78,3 +96,9 @@
 .about-paragraph-3 {
     width: 20%;
 }
+
+/* media queries 
+
+placeholder
+
+*/
