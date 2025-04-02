@@ -18,13 +18,13 @@ main {
 }
 .fullBoard {
     width: 600px;
-    border: 10px solid #95D5A5;
+    border: .2rem solid #95D5A5;
 }
 .box {
     width: 600px;
-    border: 10px solid #95D5A5;
+    border: .2rem solid #95D5A5;
 }
 .personalBoard {
     width: 600px;
-    border: 10px solid #95D5A5;
+    border: .2rem solid #95D5A5;
 }

@@ -24,3 +24,36 @@
 .teaser h3 {
     font-size: 35px;
 }
+.redOutpostProduct {
+    display: inline-flex;
+    align-items: center;
+}
+.redProduct {
+    width: 200px;
+    height: 150px;
+    border: .2rem solid #95d5a5;
+}
+.purchaseRed {
+    margin: 20px;
+    color: #E05215;
+}
+.norwegianProduct {
+    display: inline-flex;
+    align-items: center;
+}
+.purchaseNorwegian {
+    margin: 20px;
+    color: #E05215;
+}
+.footerOutpostPurchase {
+    display: inline-flex;
+    align-items: center;
+}
+.powerProduct {
+    height: 200px;
+    border: .2rem solid #95d5a5;
+}
+.powerGridOutpost {
+    margin: 20px;
+    color: #E05215;
+}
