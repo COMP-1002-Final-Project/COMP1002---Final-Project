@@ -27,6 +27,7 @@
 .redOutpostProduct {
     display: inline-flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 .redProduct {
     width: 200px;
@@ -44,6 +45,10 @@
 .purchaseNorwegian {
     margin: 20px;
     color: #E05215;
+}
+.norOutpost {
+    height: 200px;
+    border: .2rem solid #95d5a5;
 }
 .footerOutpostPurchase {
     display: inline-flex;
