@@ -37,6 +37,7 @@
 .purchaseRed {
     margin: 20px;
     color: #E05215;
+    font-size: 30px;
 }
 .norwegianProduct {
     display: inline-flex;
@@ -45,6 +46,7 @@
 .purchaseNorwegian {
     margin: 20px;
     color: #E05215;
+    font-size: 30px;
 }
 .norOutpost {
     height: 200px;
@@ -61,4 +63,18 @@
 .powerGridOutpost {
     margin: 20px;
     color: #E05215;
+    font-size: 30px;
+}
+.outpost20thAnniversaryEdition {
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.link20th {
+    color: #E05215;
+    font-size: 30px;
+}
+.outpost20th {
+    border: .2rem solid #95d5a5;
+    margin: 20px;
 }
