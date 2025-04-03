@@ -37,6 +37,7 @@
     margin: 10px;
     padding: 20px;
     text-align: center;
+    align-items: center;
 }
 .redProduct {
     width: 200px;
