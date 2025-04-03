@@ -2,12 +2,12 @@
 
 Group Members and tasks:
 
-Megan Summers - 200490048
+Megan Summers - 
 footer (site-wide),
 home page,
 product page
 
-Elizabeth Janssen - 200627709
+Elizabeth Janssen - 
 header (site-wide),
 about page,
 contact page
