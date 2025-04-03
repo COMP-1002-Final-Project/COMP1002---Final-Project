@@ -3,11 +3,11 @@
 Group Members and expected tasks:
 
 Megan Summers - 200490048
-footer (cite-wide)
+footer (site-wide)
 home page
 product page
 
 Elizabeth Janssen - 200627709
-header (cite-wide)
+header (site-wide)
 about page
 contact page
